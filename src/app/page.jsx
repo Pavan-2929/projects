@@ -46,7 +46,10 @@ export default function Home() {
             ))}
           </div>
           <div className="flex gap-4 items-center justify-center md:justify-normal w-full md:w-fit">
-            <Link href="/resume.pdf" passHref>
+            <Link
+              href="/https://drive.google.com/file/d/178jgiD-7bh-0fYCuNTrUJiY8o8RbjjPZ/view?usp=drive_link"
+              passHref
+            >
               <motion.div
                 className="flex items-center gap-2 text-sm md:text-base bg-[#1A1A1A] px-4 py-2 rounded-full cursor-pointer"
                 whileHover={{ scale: 1.05 }}
@@ -55,7 +58,7 @@ export default function Home() {
                 Resume
               </motion.div>
             </Link>
-            <Link href="https://www.linkedin.com" passHref>
+            <Link href="www.linkedin.com/in/pavankapadiya" passHref>
               <motion.div
                 className="p-2 bg-[#1A1A1A] rounded-full cursor-pointer"
                 whileHover={{ scale: 1.05 }}
@@ -63,7 +66,7 @@ export default function Home() {
                 <LinkedinIcon className="h-5 w-5 md:h-6 md:w-6" />
               </motion.div>
             </Link>
-            <Link href="mailto:example@example.com" passHref>
+            <Link href="mailto:kapadiyapavan3218@gmail.com" passHref>
               <motion.div
                 className="p-2 bg-[#1A1A1A] rounded-full cursor-pointer"
                 whileHover={{ scale: 1.05 }}
@@ -74,7 +77,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Projects Grid */}
         <motion.div
           layout
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12"
